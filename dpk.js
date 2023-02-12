@@ -12,9 +12,9 @@ exports.deterministicPartitionKey = (event) => {
       ? event.partitionKey
       : JSON.stringify(event.partitionKey);
 
-  const partitionKeyIsUsable = partitionKey?.length <= MAX_PARTITION_KEY_LENGTH;
+  const existingKeyIsUsable = partitionKey?.length <= MAX_PARTITION_KEY_LENGTH;
 
-  if (!partitionKeyIsUsable) {
+  if (!existingKeyIsUsable) {
     return crypto
       .createHash("sha3-512")
       .update(JSON.stringify(event))

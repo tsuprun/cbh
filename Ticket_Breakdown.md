@@ -20,8 +20,8 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 Acceptance Criteria:
 
-- FacilityAgentID is added into the model as an optional string (256 chars max).
-- The CRUD endpoints allow FacilityAgentID to be read/created/updated.
+- `FacilityAgentID` is added into the model as an optional string (256 chars max).
+- The CRUD endpoints allow `FacilityAgentID` to be read/created/updated.
 - Unit tests
 
 Time Estimate: 2 story points
@@ -30,7 +30,7 @@ Time Estimate: 2 story points
 
 Acceptance Criteria:
 
-- Reports show FacilityAgentID along with other Agent metadata
+- Reports show `FacilityAgentID` along with other `Agent` metadata
 
 Time Estimate: 1 story point
 
@@ -38,7 +38,7 @@ Time Estimate: 1 story point
 
 Acceptance Criteria:
 
-- Able to modify FacilityAgentID
+- Able to modify `FacilityAgentID`
 - Unit tests
 
 Time Estimate: 1 story point
