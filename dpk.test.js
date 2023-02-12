@@ -24,7 +24,6 @@ describe("deterministicPartitionKey", () => {
     expect(key).toEqual("Hello world!");
   });
 
-  // TODO: this one is still failing
   it("stringifies key if it's a JSON", () => {
     const key = deterministicPartitionKey({
       partitionKey: {
