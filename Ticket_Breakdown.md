@@ -34,11 +34,10 @@ Acceptance Criteria:
 
 Time Estimate: 1 story point
 
-### Ticket #2: Ability to modify FacilityAgentID in internal tool
+### Ticket #2: Ability to set `FacilityAgentID` in internal tool (front end)
 
 Acceptance Criteria:
 
-- Able to modify `FacilityAgentID`
-- Unit tests
+- Able to set `FacilityAgentID` on new and existing agents
 
 Time Estimate: 1 story point
