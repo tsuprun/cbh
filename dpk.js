@@ -7,9 +7,8 @@ exports.deterministicPartitionKey = (event) => {
   if (!event) {
     return TRIVIAL_PARTITION_KEY;
   }
-
   const partitionKey =
-    event.partitionKey === "string"
+    typeof event.partitionKey === "string"
       ? event.partitionKey
       : JSON.stringify(event.partitionKey);
 
